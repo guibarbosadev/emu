@@ -13,8 +13,11 @@
   "bin": {
     "emu": "./bin/emu.js"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
     "chalk": "^5.4.1",
-    "inquirer": "^12.7.0"
+    "inquirer": "8.2.6"
   }
 }
