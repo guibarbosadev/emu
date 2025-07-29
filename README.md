@@ -7,7 +7,7 @@ A simple CLI to list, select, and launch Android emulators (AVDs) on macOS.
 From the project directory:
 
 ```sh
-npm install -g .
+npm install -g @guilhermebpereira/emu
 ```
 
 ## Usage
