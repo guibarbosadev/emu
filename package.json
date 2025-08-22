@@ -1,6 +1,6 @@
 {
   "name": "@guilherme/emu",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A CLI tool to list, select, and launch Android emulators and iOS simulators",
   "main": "src/index.js",
   "bin": {
