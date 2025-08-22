@@ -1,15 +1,8 @@
 {
-  "name": "@guilhermebpereira/emu",
-  "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
-  "private": false,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "@guilherme/emu",
+  "version": "1.1.0",
+  "description": "A CLI tool to list, select, and launch Android emulators and iOS simulators",
+  "main": "src/index.js",
   "bin": {
     "emu": "./bin/emu.js"
   },
@@ -19,5 +12,20 @@
   "dependencies": {
     "chalk": "4.1.2",
     "inquirer": "8.2.6"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "emulator",
+    "simulator",
+    "ios",
+    "android",
+    "mobile",
+    "development"
+  ],
+  "author": "",
+  "license": "ISC"
 }
